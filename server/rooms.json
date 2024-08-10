@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Deluxe Suite",
+    "imageUrls": [
+      "https://example.com/images/deluxe-suite1.jpg",
+      "https://example.com/images/deluxe-suite2.jpg"
+    ],
+    "rentperday": 150,
+    "type": "Suite",
+    "maxcount": 4,
+    "phonenumber": 1234567890,
+    "currentBookings": [],
+    "description": "A luxurious suite with stunning views and modern amenities."
+  },
+  {
+    "name": "Standard Room",
+    "imageUrls": [
+      "https://example.com/images/standard-room1.jpg",
+      "https://example.com/images/standard-room2.jpg"
+    ],
+    "rentperday": 80,
+    "type": "Standard",
+    "maxcount": 2,
+    "phonenumber": 1234567890,
+    "currentBookings": [],
+    "description": "A comfortable room with all the basic amenities for a pleasant stay."
+  },
+  {
+    "name": "Family Room",
+    "imageUrls": [
+      "https://example.com/images/family-room1.jpg",
+      "https://example.com/images/family-room2.jpg"
+    ],
+    "rentperday": 120,
+    "type": "Family",
+    "maxcount": 5,
+    "phonenumber": 1122334455,
+    "currentBookings": [],
+    "description": "A spacious room perfect for families, with additional bedding and amenities."
+  },
+  {
+    "name": "Single Room",
+    "imageUrls": [
+      "https://example.com/images/single-room1.jpg"
+    ],
+    "rentperday": 50,
+    "type": "Single",
+    "maxcount": 1,
+    "phonenumber": 2233445566,
+    "currentBookings": [],
+    "description": "A cozy room ideal for solo travelers, offering privacy and comfort."
+  }
+]
