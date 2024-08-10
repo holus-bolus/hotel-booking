@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Room from "../components/Room.jsx";
 
 const HomeScreen = () => {
   const [data, setData] = useState([]);
@@ -18,13 +19,8 @@ const HomeScreen = () => {
   }, []);
   return (
     <div>
-      <h1>Home Screen</h1>
       {data.map((room) => (
-        <div key={room._id} className="col-md-9">
-          <h2>{room.name}</h2>
-          <p>{room.description}</p>
-          <p>Price: ${room.rentperday}</p>
-        </div>
+        <Room key={room._id} room={room} />
       ))}
     </div>
   );
