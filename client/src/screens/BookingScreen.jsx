@@ -52,6 +52,15 @@ const BookingScreen = () => {
             <p>To date: </p>
             <p>Max Count: {room.maxcount}</p>
           </div>
+          <div>
+            <h2>Amount</h2>
+            <p>Total days</p>
+            <p>Price per night</p>
+            <p>Total amount</p>
+          </div>
+          <div>
+            <button className="btn btn-primary">Book now</button>
+          </div>
         </div>
       ) : (
         <h2>No room data available</h2>
